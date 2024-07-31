@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyam Kumar Gupta - Portfolio</title>
+    <link rel="stylesheet" href="xyz.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('OIP\ \(1\).jpeg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+        
+        header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+        }
+        
+        header nav ul li {
+            margin: 0 10px;
+        }
+        
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        #home,
+        #projects,
+        #skills,
+        #contact {
+            text-align: center;
+            padding: 50px 20px;
+            color: #fff;
+        }
+        
+        #home h1,
+        #projects h1,
+        #skills h1,
+        #contact h1 {
+            font-size: 36px;
+        }
+        
+        #home p.special-text {
+            color: white;
+            /* Change text color to white */
+            font-size: 20px;
+            /* Increase text size */
+        }
+        
+        #projects ul {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 0;
+            list-style: none;
+        }
+        
+        #projects li {
+            margin: 20px;
+            width: 40%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        #projects img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        #skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        #skills li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        
+        #contact a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        #profile-pic {
+            width: 200px;
+            /* Increased size */
+            height: 200px;
+            /* Increased size */
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        
+        #home .name {
+            font-size: 30px;
+            /* Increased size */
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="shyamxyz.pdf" download>Resume</a></li>
+                <!-- Link to download resume -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <img src="profile.png" alt="Shyam Kumar Gupta" id="profile-pic">
+            <div class="name">Shyam Kumar Gupta</div>
+            <h1>Welcome to my portfolio!</h1>
+            <p class="special-text">I'm Shyam Kumar Gupta, a final-year B.Tech student at ABES Institute of Technology, specializing in Data Science and Computer Science. I'm passionate about building innovative solutions that can make a real impact. With a strong foundation
+                in programming languages like Java, Python, and SQL, I'm always looking to expand my skill set and take on new challenges.</p>
+            <p class="special-text"></p>
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <ul>
+                <li>
+                    <img src="sale.png" alt="Super Store Sales Dashboard">
+                    <h2>Super Store Sales Dashboard using Power BI</h2>
+                    <p>Collected, cleaned, and processed sales data from various sources. Designed and developed interactive dashboards and reports in Power BI.</p>
+                    <a href="https://example.com/powerbi-dashboard">View Project</a>
+                </li>
+                <li>
+                    <img src="house.png" alt="House Price Prediction">
+                    <h2>House Price Prediction</h2>
+                    <p>Created a machine learning model in Python to predict house prices. Implemented data preprocessing, feature engineering, and various regression algorithms.</p>
+                    <a href="https://example.com/house-price-prediction">View Project</a>
+                </li>
+                <li>
+                    <img src="ecommers.png" alt="E-commerce Website">
+                    <h2>E-commerce Website</h2>
+                    <p>Built an e-commerce website using HTML, CSS, and JavaScript. Designed a user-friendly interface with product listings, shopping cart functionality, and responsive design.</p>
+                    <a href="https://example.com/ecommerce-website">View Project</a>
+                </li>
+                <li>
+                    <img src="blinkit.png" alt="Blinkit Power BI">
+                    <h2>Blinkit Power BI</h2>
+                    <p>This Power BI project analyzes sales data to provide insights into the performance of Blinkit. The interactive dashboards offer a comprehensive view of key metrics, including total sales, revenue, and customer demographics.</p>
+                    <a href="https://github.com/shyamkumargupta411/Blinkit-Power-BI">View Project on GitHub</a>
+                </li>
+                <li>
+                    <img src="Dice.png" alt="Dice Game">
+                    <h2>Dice Game</h2>
+                    <p>A simple Flutter project using Dart. Basic dice rolling game.</p>
+                    <a href="https://github.com/shyamkumargupta411/Dice_Game">View Project on GitHub</a>
+                </li>
+                <li>
+                    <img src="text.png" alt="NoteApp">
+                    <h2>NoteApp</h2>
+                    <p>A simple app used to store text, built using Kotlin.</p>
+                    <a href="https://github.com/shyamkumargupta411/NoteApp">View Project on GitHub</a>
+                </li>
+                <li>
+                    <img src="convert.png" alt="Currency Converter">
+                    <h2>Currency Converter</h2>
+                    <p>A simple app used to convert currency.</p>
+                    <a href="https://github.com/shyamkumargupta411/Currency_Converter">View Project on GitHub</a>
+                </li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h1>Skills</h1>
+            <ul>
+                <li>Programming languages: Java, Python, SQL, Dart, Kotlin ,HTML ,CSS, JavaScript</li>
+                <li>Data analysis and visualization tools: Power BI, Excel, Pandas, NumPy, Jupyter Notebook</li>
+                <li>Development tools: VS-Code,Jupyter, IntelliJ IDEA, Git</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h1>Get in touch!</h1>
+            <p>Phone: +91-9118465585</p>
+            <p>Email: <a href="mailto:shyamkumargupta411@gmail.com">shyamkumargupta411@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/shyam-kumar-gupta-59267a249">linkedin.com/in/shyam-kumar-gupta-59267a249</a></p>
+        </section>
+    </main>
+</body>
+
+</html>
